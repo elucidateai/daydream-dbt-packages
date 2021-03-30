@@ -36,3 +36,12 @@ models:
       # Applies to all files under models/example/
       example:
           materialized: view
+
+vars:
+  stripe_source:
+    stripe_database: cloud_services
+    stripe_schema: stripe_test
+
+models:
+  stripe:
+    +schema: stripe_test_dbt_transformations
