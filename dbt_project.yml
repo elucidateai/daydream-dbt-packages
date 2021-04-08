@@ -37,11 +37,16 @@ models:
       example:
           materialized: view
 
-vars:
-  stripe_source:
-    stripe_database: cloud_services
-    stripe_schema: stripe_test
+##### STRIPE CONFIGS #########
+# vars:
+#   stripe_source:
+#     stripe_database: cloud_services
+#     stripe_schema: stripe_test
 
-models:
-  stripe:
-    +schema: stripe_test_dbt_transformations
+# models:
+#   stripe:
+#     +schema: stripe_test_dbt_transformations # Change the schema
+
+vars:
+    quickbooks_database: cloud_services
+    quickbooks_schema: daydreamtest_694_quickbooks
