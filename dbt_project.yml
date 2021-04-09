@@ -49,4 +49,4 @@ models:
 
 vars:
     quickbooks_database: cloud_services
-    quickbooks_schema: daydreamtest_694_quickbooks
+    quickbooks_schema: sebtopia_670_quickbooks
