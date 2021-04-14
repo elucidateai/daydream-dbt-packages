@@ -1,3 +1,7 @@
 packages:
-  - package: fivetran/quickbooks
-    version: 0.2.0
+  # - local: ../../xero_source
+  # - local: ../xero_source
+
+  - git: "https://github.com/fivetran/dbt_xero"
+    revision: main
+    warn-unpinned: false

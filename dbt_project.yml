@@ -48,5 +48,5 @@ models:
 #     +schema: stripe_test_dbt_transformations # Change the schema
 
 vars:
-    quickbooks_database: cloud_services
-    quickbooks_schema: sebtopia_670_quickbooks
+    xero_schema: wasif_651_xero
+    xero_database: cloud_services
