@@ -48,5 +48,25 @@ models:
 #     +schema: stripe_test_dbt_transformations # Change the schema
 
 vars:
-    xero_schema: wasif_651_xero
-    xero_database: cloud_services
+  # hubspot_marketing_enabled: false                        # Disables all marketing models
+  hubspot_contact_enabled: false                          # Disables the contact models
+  hubspot_contact_list_enabled: false                     # Disables contact list models
+  hubspot_contact_list_member_enabled: false              # Disables contact list member models
+  hubspot_contact_property_enabled: false                 # Disables the contact property models
+  hubspot_email_event_enabled: false                      # Disables all email_event models and functionality
+  hubspot_email_event_bounce_enabled: false
+  hubspot_email_event_deferred_enabled: false
+  hubspot_email_event_delivered_enabled: false
+  hubspot_email_event_dropped_enabled: false
+  hubspot_email_event_forward_enabled: false
+  hubspot_email_event_click_enabled: false
+  hubspot_email_event_opens_enabled: false
+  hubspot_email_event_print_enabled: false
+  hubspot_email_event_sent_enabled: false
+  hubspot_email_event_spam_report_enabled: false
+  hubspot_email_event_status_change_enabled: false
+  hubspot_engagement_calls_enabled: false
+
+  hubspot_source:
+    hubspot_database: cloud_services
+    hubspot_schema: daydreamtest_694_hubspot
